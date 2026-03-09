@@ -15,7 +15,7 @@
             <i class="fa fa-bars"></i>
         </button>
         <a href="{{ route('welcome') }}" class="navbar-brand text-white">
-            <img src="{{ asset('images/kv_logo.png') }}" style="height: 40px;" alt="Logo">
+            <img src="{{ asset('images/logo-hindi.png') }}" style="height: 40px;" alt="Logo">
         </a>
 
         <div class="collapse navbar-collapse">

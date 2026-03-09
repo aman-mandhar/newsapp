@@ -13,12 +13,6 @@
                            type="submit">News Search</button>
                      </form>
                   </aside>
-                  <aside class="single_sidebar_widget">
-                    <div class="top-side-slider">
-                        <img src="{{ asset('img/ads/top-side/1.jpeg') }}" alt="Advertisement" class="top-side-slide active">
-                        <img src="{{ asset('img/ads/top-side/2.jpeg') }}" alt="Advertisement" class="top-side-slide">
-                    </div>
-                  </aside>
                   <aside class="single_sidebar_widget post_category_widget">
                      <h4 class="widget_title">News as per Category</h4>
                      <ul class="list cat-list">

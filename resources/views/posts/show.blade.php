@@ -586,12 +586,6 @@ body {
 @endpush
 
 @section('content')
-<div class="container">
-    <div class="top-a-slider">
-        <img src="{{ asset('img/ads/top-a/1.png') }}" alt="Advertisement" class="top-a-slide active">
-        <img src="{{ asset('img/ads/top-a/2.png') }}" alt="Advertisement" class="top-a-slide">
-    </div>
-</div>
 <!--================Blog Area =================-->
 <section class="blog_area single-post-area section-padding">
   <div class="container">
