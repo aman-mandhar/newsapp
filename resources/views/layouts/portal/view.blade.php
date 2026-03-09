@@ -21,21 +21,21 @@
 <head>
     <meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>@yield('title', 'ਲੋਕਬਾਣੀ - Lokbani')</title>
+	<title>@yield('title', 'MeraBharat News - Daily Newspaper')</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="@yield('description', 'ਲੋਕਬਾਣੀ - ਪੰਜਾਬੀ ਖ਼ਬਰਾਂ, ਲੇਖ, ਅਤੇ ਸਮਾਚਾਰ ਪੋਰਟਲ। ਤਾਜ਼ਾ ਖ਼ਬਰਾਂ, ਸਿੱਖ ਧਰਮ, ਸੱਭਿਆਚਾਰ, ਅਤੇ ਸਮਾਜਿਕ ਮੁੱਦਿਆਂ ਬਾਰੇ ਜਾਣਕਾਰੀ।')">
-	<meta name="keywords" content="@yield('keywords', 'ਲੋਕਬਾਣੀ, Lokbani, ਪੰਜਾਬੀ ਖ਼ਬਰਾਂ, ਸਿੱਖ ਧਰਮ, ਪੰਜਾਬੀ ਸਮਾਚਾਰ, ਗੁਰਦੁਆਰਾ, ਸਿੱਖ ਇਤਿਹਾਸ, ਪੰਜਾਬ')">
+	<meta name="description" content="@yield('description', 'MeraBharat News - Daily Newspaper')">
+	<meta name="keywords" content="@yield('keywords', 'MeraBharat News, daily newspaper, india news, hindi news, news portal')">
 	<meta name="csrf-token" content="{{ csrf_token() }}">
 
     {{-- Open Graph / Twitter --}}
-	<meta property="og:title" content="@yield('og_title', 'ਲੋਕਬਾਣੀ - Lokbani')" />
+	<meta property="og:title" content="@yield('og_title', 'MeraBharat News - Daily Newspaper')" />
 	<meta property="og:description" content="@yield('og_description', 'ਪੰਜਾਬੀ ਖ਼ਬਰਾਂ, ਲੇਖ, ਅਤੇ ਸਮਾਚਾਰ ਪੋਰਟਲ')" />
 	<meta property="og:image" content="@yield('og_image', asset('images/icon.png'))" />
 	<meta property="og:url" content="@yield('og_url', url()->current())" />
 	<meta property="og:type" content="website" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="@yield('twitter_title', 'ਲੋਕਬਾਣੀ - Lokbani')" />
+	<meta name="twitter:title" content="@yield('twitter_title', 'MeraBharat News - Daily Newspaper')" />
 	<meta name="twitter:description" content="@yield('twitter_description', 'ਪੰਜਾਬੀ ਖ਼ਬਰਾਂ, ਲੇਖ, ਅਤੇ ਸਮਾਚਾਰ ਪੋਰਟਲ')" />
 	<meta name="twitter:image" content="@yield('twitter_image', asset('portal/assets/img/logo/logo.png'))" />
 
