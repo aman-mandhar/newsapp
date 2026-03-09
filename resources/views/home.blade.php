@@ -786,7 +786,7 @@ hr {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-10">
                         <!-- Trending Top Slider -->
                         <div class="trending-top mb-30">
                             <div class="slider-container">
@@ -820,13 +820,6 @@ hr {
                                     </div>
                                 @endif
                             </div>
-                        </div>
-                    </div>
-                    <!-- Riht content -->
-                    <div class="col-lg-4 center-content">
-                        <div class="top-side-slider">
-                            <img src="{{ asset('img/ads/top-side/1.jpeg') }}" alt="Advertisement" class="top-side-slide active">
-                            <img src="{{ asset('img/ads/top-side/2.jpeg') }}" alt="Advertisement" class="top-side-slide">
                         </div>
                     </div>
                 </div>
