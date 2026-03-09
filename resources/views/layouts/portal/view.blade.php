@@ -43,7 +43,7 @@
 
     {{-- PWA --}}
 <link rel="manifest" href="{{ asset('manifest.webmanifest') }}">
-<meta name="theme-color" content="#198754">
+<meta name="theme-color" content="#ffa600">
 
 {{-- iOS PWA --}}
 <meta name="apple-mobile-web-app-capable" content="yes">
