@@ -766,12 +766,6 @@ hr {
 @section('content')
 
 <main>
-    <div class="container">
-        <div class="top-a-slider">
-            <img src="{{ asset('img/ads/top-a/1.png') }}" alt="Advertisement" class="top-a-slide active">
-            <img src="{{ asset('img/ads/top-a/2.png') }}" alt="Advertisement" class="top-a-slide">
-        </div>
-    </div>
     <!-- Trending Area Start -->
     <div class="trending-area fix">
         <div class="container">
@@ -840,7 +834,6 @@ hr {
         </div>
     </div>
     <!-- Trending Area End -->
-    @include('partials.ads.dips')
     <!-- Whats New Start -->
     <section class="whats-news-area pt-50 pb-20">
         <div class="container">

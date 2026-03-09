@@ -698,7 +698,6 @@ body {
             </div>
           </section>
 
-          @include('partials.ads.dips')
 
           {{-- Toast (copy success) --}}
           <div id="shareToast" class="share-toast" aria-live="polite" aria-atomic="true" hidden>🔗 Link copied!</div>
