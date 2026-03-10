@@ -23,3 +23,11 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
+
+# Never cache the PWA manifest so the install dialog always gets fresh data
+<FilesMatch "manifest\.webmanifest$">
+    <IfModule mod_headers.c>
+        Header set Cache-Control "no-store, no-cache, must-revalidate"
+        Header set Pragma "no-cache"
+    </IfModule>
+</FilesMatch>

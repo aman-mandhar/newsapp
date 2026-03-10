@@ -42,7 +42,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('pwa/icon-512.png') }}">
 
     {{-- PWA --}}
-<link rel="manifest" href="{{ asset('manifest.webmanifest') }}">
+<link rel="manifest" href="{{ asset('manifest.webmanifest') }}?v=3">
 <meta name="theme-color" content="#ffa600">
 
 {{-- iOS PWA --}}
