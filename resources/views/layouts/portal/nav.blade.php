@@ -132,17 +132,17 @@
                                         </a>
                                     </div>
                                     <div class="col-3">
-                                        <a href="https://lokbani.com/epaper/today" style="color:black; font-size:12px;" target="_blank" rel="noopener noreferrer">
+                                        <a href="https://merabharatnews.com/epaper/today" style="color:black; font-size:12px;" target="_blank" rel="noopener noreferrer">
                                             <i class="fas fa-newspaper me-1"></i> E-Paper
                                         </a>
                                     </div>
                                     <div class="col-3">
-                                        <a href="https://www.youtube.com/@lokbanitv" style="color:black; font-size:12px;" target="_blank" rel="noopener noreferrer">
+                                        <a href="{{route('welcome')}}" style="color:black; font-size:12px;" target="_blank" rel="noopener noreferrer">
                                             <i class="fab fa-youtube me-1"></i> Videos
                                         </a>
                                     </div>
                                     <div class="col-3">
-                                        <a href="https://www.facebook.com/DailyLokBanipunjabiNewsPaper/" style="color:black; font-size:12px;" target="_blank" rel="noopener noreferrer">
+                                        <a href="{{route('welcome')}}" style="color:black; font-size:12px;" target="_blank" rel="noopener noreferrer">
                                             <i class="fab fa-facebook me-1"></i> Facebook
                                         </a>
                                     </div>
