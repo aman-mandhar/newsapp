@@ -48,7 +48,7 @@
 {{-- iOS PWA --}}
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="{{ config('app.name') }}">
+<meta name="apple-mobile-web-app-title" content="Mera Bharat News">
 <link rel="apple-touch-icon" href="{{ asset('pwa/icon-192.png') }}">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/pwa/apple-icon-180.png">
@@ -90,14 +90,24 @@
 
     {{-- Include footer partial --}}
     @includeIf('layouts.portal.footer')
-    <button id="btnInstall" class="btn" style="position:fixed; left:0; bottom:0; z-index:1050; font-weight:800; background-color:#198754; color:#fff; display:none;">
-        <i class="bi bi-download me-2"></i> Install App
+    {{-- PWA Install Button (Android/Chrome) --}}
+    <button id="btnInstall" type="button" style="position:fixed;left:0;bottom:0;z-index:1060;display:none;align-items:center;gap:8px;padding:12px 20px;background:#ffa600;color:#fff;font-weight:700;font-size:15px;border:none;border-radius:0 8px 0 0;box-shadow:2px -2px 8px rgba(0,0,0,.2);cursor:pointer;">
+        <img src="/pwa/icon-192.png" alt="" style="width:28px;height:28px;border-radius:6px;">
+        <span>Install Mera Bharat News</span>
+        <span style="font-size:11px;opacity:.85;display:block;line-height:1;">Add to Home Screen</span>
     </button>
-    <div id="iosInstallHint" class="alert alert-success shadow-sm mb-0" style="display:none; position:fixed; left:20px; right:20px; bottom:20px; z-index:1050; max-width:420px;">
-      <div class="d-flex align-items-center justify-content-between" style="gap:10px;">
-        <span style="font-size:14px; line-height:1.3;">On iPhone, tap <strong>Share</strong> and then <strong>Add to Home Screen</strong>.</span>
-        <button id="iosInstallHintDismiss" type="button" class="btn btn-sm btn-light">Close</button>
+
+    {{-- iOS Install Hint --}}
+    <div id="iosInstallHint" style="display:none;position:fixed;left:12px;right:12px;bottom:12px;z-index:1060;background:#fff;border:1px solid #ffa600;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,.18);max-width:440px;padding:16px 18px;">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;">
+        <img src="/pwa/icon-192.png" alt="" style="width:40px;height:40px;border-radius:10px;flex-shrink:0;">
+        <div>
+          <div style="font-weight:700;font-size:15px;color:#111;">Install Mera Bharat News</div>
+          <div style="font-size:12px;color:#888;">Add to your Home Screen</div>
+        </div>
+        <button id="iosInstallHintDismiss" type="button" style="margin-left:auto;background:none;border:none;font-size:20px;color:#aaa;cursor:pointer;line-height:1;" aria-label="Close">&times;</button>
       </div>
+      <p style="font-size:13px;color:#444;margin:0;">On iPhone: tap <strong>Share &#10064;</strong> &rarr; <strong>Add to Home Screen</strong>.</p>
     </div>
 
     {{-- JS files (load from public/portal/assets/js) --}}
@@ -175,7 +185,7 @@
     e.preventDefault();
     deferredPrompt = e;
     const btn = document.getElementById("btnInstall");
-    if (btn) btn.style.display = "inline-flex";
+    if (btn) btn.style.display = "flex";
   });
 
   document.addEventListener("click", async (e) => {

@@ -1,7 +1,7 @@
 @extends('layouts.portal.view')
 
-@section('title', 'Install App - ਲੋਕਬਾਣੀ')
-@section('description', 'Install Lokbani app on your phone or desktop for a faster experience.')
+@section('title', 'Install App - Mera Bharat News')
+@section('description', 'Install Mera Bharat News app on your phone or desktop for a faster experience.')
 
 @section('content')
 <section class="py-5" style="background:#f8fafc; min-height:60vh;">
@@ -10,8 +10,8 @@
             <div class="col-lg-8">
                 <div class="card shadow-sm border-0">
                     <div class="card-body p-4 p-md-5">
-                        <h1 class="h3 fw-bold mb-3">Install Lokbani App</h1>
-                        <p class="text-muted mb-4">Add Lokbani to your home screen for quick access, faster loading, and app-like browsing.</p>
+                        <h1 class="h3 fw-bold mb-3">Install Mera Bharat News App</h1>
+                        <p class="text-muted mb-4">Add Mera Bharat News to your home screen for quick access, faster loading, and app-like browsing.</p>
 
                         <div id="installSupported" style="display:none;">
                             <button id="installPageBtn" type="button" class="btn btn-success btn-lg fw-bold">

@@ -5,27 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('title', config('app.name', 'Lokbani'))</title>
+    <title>@yield('title', config('app.name', 'Mera Bharat News'))</title>
 
     {{-- SEO Meta Tags --}}
-    <meta name="description" content="@yield('description', 'Lokbani - Daily Punjabi Newspaper')">
-    <meta name="keywords" content="@yield('keywords', 'lokbani, punjabi newspaper, daily newspaper, jalandhar, punjab')">
-    <meta name="author" content="Lokbani">
+    <meta name="description" content="@yield('description', 'Mera Bharat News - Daily News Portal')">
+    <meta name="keywords" content="@yield('keywords', 'mera bharat news, india news, hindi news, daily newspaper, news portal')">
+    <meta name="author" content="Mera Bharat News">
 
     {{-- Open Graph / Facebook --}}
     <meta property="og:type" content="@yield('og_type', 'website')">
     <meta property="og:url" content="@yield('og_url', url()->current())">
-    <meta property="og:title" content="@yield('og_title', config('app.name', 'Lokbani'))">
-    <meta property="og:description" content="@yield('og_description', 'Lokbani - Daily Punjabi Newspaper')">
-    <meta property="og:image" content="@yield('og_image', asset('images/icon.png'))">
-    <meta property="og:site_name" content="Lokbani">
+    <meta property="og:title" content="@yield('og_title', config('app.name', 'Mera Bharat News'))">
+    <meta property="og:description" content="@yield('og_description', 'Mera Bharat News - Daily News Portal')">
+    <meta property="og:image" content="@yield('og_image', asset('images/logo.png'))">
+    <meta property="og:site_name" content="Mera Bharat News">
 
     {{-- Twitter --}}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="@yield('og_url', url()->current())">
-    <meta name="twitter:title" content="@yield('og_title', config('app.name', 'Lokbani'))">
-    <meta name="twitter:description" content="@yield('og_description', 'Lokbani - Daily Punjabi Newspaper')">
-    <meta name="twitter:image" content="@yield('og_image', asset('images/icon.png'))">
+    <meta name="twitter:title" content="@yield('og_title', config('app.name', 'Mera Bharat News'))">
+    <meta name="twitter:description" content="@yield('og_description', 'Mera Bharat News - Daily News Portal')">
+    <meta name="twitter:image" content="@yield('og_image', asset('images/logo.png'))">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
