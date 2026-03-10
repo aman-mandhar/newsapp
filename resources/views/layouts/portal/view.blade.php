@@ -39,7 +39,7 @@
 	<meta name="twitter:description" content="@yield('twitter_description', 'ਪੰਜਾਬੀ ਖ਼ਬਰਾਂ, ਲੇਖ, ਅਤੇ ਸਮਾਚਾਰ ਪੋਰਟਲ')" />
 	<meta name="twitter:image" content="@yield('twitter_image', asset('portal/assets/img/logo/logo.png'))" />
 
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/icon.png') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('pwa/icon-512.png') }}">
 
     {{-- PWA --}}
 <link rel="manifest" href="{{ asset('manifest.webmanifest') }}">
