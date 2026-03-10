@@ -136,13 +136,13 @@ main {
     overflow: hidden;
     box-shadow: 0 4px 16px rgba(0,0,0,0.12);
     border: 2px solid #000000;
-    height: 450px;
+    height: 550px;
     position: relative;
 }
 
 .slider-container {
     position: relative;
-    height: 450px;
+    height: 550px;
     width: 100%;
 }
 
@@ -163,13 +163,13 @@ main {
 }
 
 .trend-top-img {
-    height: 450px;
+    height: 550px;
     position: relative;
 }
 
 .trend-top-img img {
     width: 100%;
-    height: 450px;
+    height: 550px;
     object-fit: cover;
 }
 
@@ -634,19 +634,19 @@ hr {
 /* Responsive Styles */
 @media (max-width: 991px) {
     .trending-top {
-        height: 350px;
+        height: 400px;
     }
 
     .slider-container {
-        height: 350px;
+        height: 400px;
     }
 
     .trend-top-img {
-        height: 350px;
+        height: 400px;
     }
 
     .trend-top-img img {
-        height: 350px;
+        height: 400px;
     }
 
     .col-lg-4 {
@@ -676,19 +676,19 @@ hr {
     }
 
     .trending-top {
-        height: 300px;
+        height: 260px;
     }
 
     .slider-container {
-        height: 300px;
+        height: 260px;
     }
 
     .trend-top-img {
-        height: 300px;
+        height: 260px;
     }
 
     .trend-top-img img {
-        height: 300px;
+        height: 260px;
     }
 
     .trend-top-cap {
@@ -786,7 +786,7 @@ hr {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-10">
+                    <div class="col-lg-12">
                         <!-- Trending Top Slider -->
                         <div class="trending-top mb-30">
                             <div class="slider-container">
