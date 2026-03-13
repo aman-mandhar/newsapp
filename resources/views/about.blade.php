@@ -37,9 +37,9 @@
                     <div class="card-body">
                         <h5 class="card-title mb-3">Quick View</h5>
                         <ul class="kv-factlist">
-                            <li><i class="fa-solid fa-user-tie me-2"></i> Editor : Amandeep Mehra</li>
+                            <li><i class="fa-solid fa-user-tie me-2"></i> Editor : Vikas Modgil</li>
                             <li><i class="fa-solid fa-newspaper me-2"></i> RNI Registered Daily Edition</li>
-                            <li><i class="fa-solid fa-tv me-2"></i> Lokbani Newspaper and Portal</li>
+                            <li><i class="fa-solid fa-tv me-2"></i> Mera Bharat Newspaper and Portal</li>
                         </ul>
                         <a href="{{ url('/') }}" class="btn btn-primary w-100 mt-2">Back to Home</a>
                     </div>
